@@ -204,10 +204,4 @@ Dopo aver letto la carta e assegnato l’id alla variabile  **card**  controllia
 Se l’ID della card presentata è presente nell’array di carte “conosciute” lanciamo la funzione  **toggle()**  che controllerà lo stato della serratura e, come detto sopra, se aperta la chiuderà e se chiusa la aprirà, impostando la luce del NeoPixel del relativo colore (rossa o verde). Inoltre usiamo la funzione  **beep(0.1)** per segnalare acusticamente l’avvenuta lettura della carta.  
 Nel caso la carta presentata non fosse nell’elenco, restituiamo un errore con la funzione  **red_blynk(3)**  che farà lampeggiare per 3 volte in rosso il nostro NeoPixel.
 
-Se hai domande, o dubbi, scrivi nei commenti e..happy coding!
-
-## Codice completo
-
-Di seguito trovi il codice completo da incollare nel file main.py sul tuo Raspberry Pi Pico.
-
-Sono necessarie le librerie  **mfrc522**,  **neopixel**  e una semplice libreria che consente di passare alla funzione  **servo()**  i gradi (0°, 90°, 180°). Puoi trovare le librerie [sulla mia repository  **GitHub**](https://github.com/davpirelli/Rapberry-Pi-Pico-Serratura-Smart-NFC)
+Se hai domande, o dubbi, scrivi nei commenti del mio blog e..happy coding!
